@@ -12,3 +12,8 @@ Github Tutorial:
 
 3) push pushed into the github and pull pulls
 	git pull
+
+Lifecycle:
+first come and git pull 
+make changes
+then commit and push
