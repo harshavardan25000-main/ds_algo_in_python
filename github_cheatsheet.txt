@@ -1,0 +1,11 @@
+Github Tutorial:
+
+1) clone from the github repository to the local folder:
+	git clone https://github.com/harshavardan25000-main/ds_algo_in_python.git
+
+2) Add the folder in the sublime text, create files or modules and once you are ready:
+	git status
+	git add index.html
+	git status
+	git commit -m 'any comment'
+	git push
