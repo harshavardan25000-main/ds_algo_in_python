@@ -5,7 +5,10 @@ Github Tutorial:
 
 2) Add the folder in the sublime text, create files or modules and once you are ready:
 	git status
-	git add index.html
+	git add index.html or git add . or git add -A
 	git status
 	git commit -m 'any comment'
 	git push
+
+3) push pushed into the github and pull pulls
+	git pull
