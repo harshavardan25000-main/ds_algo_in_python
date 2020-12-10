@@ -1,0 +1,14 @@
+os_module_cheatsheet.txt
+
+Python OS Module:
+=================
+provides tools to interact with the file system
+
+-os.path.getsize(path)
+	returns the immediate disk usage measured in bytes for the file or directory
+-os.path.isdir(path)
+	returns true or false if path is directory or not
+-os.listdir(path)
+	returns list of strings that are names of all entried within a directory
+-os.path.join(path,filename)
+	compose a path and filename using a system operator between  path and filename
