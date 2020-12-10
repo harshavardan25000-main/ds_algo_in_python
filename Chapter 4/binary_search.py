@@ -1,20 +1,16 @@
 def binary_search(data,start,end):
 
     if start>=end:
-        result.append(None)
-        return
+        return None
     mid = (start + end) // 2
     if data[mid]==target:
-        result.append(mid)
-        return
+        return mid
     elif data[mid]>target:
-        binary_search(data,start,mid)
+        return binary_search(data,start,mid)
     else:
-        binary_search(data,mid+1,end)
-
+        return binary_search(data,mid+1,end)
 
 data=[1,2,3,4,5,6,7,8]
 target=7
-result=[]
-binary_search(data,0,len(data))
-print(result[0])
+print(binary_search(data,0,len(data)))
+
