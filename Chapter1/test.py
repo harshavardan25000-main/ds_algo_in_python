@@ -1,1 +1,1 @@
-'this is what i wantes'
+'this is what i wanted'
